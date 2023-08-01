@@ -19,7 +19,7 @@ def test2():
 @app.route("login")
 def login():
      data1 = 45*8
-     return "login my page from url {}". format(a)
+     return "login my page from url {}". format(data1)
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
