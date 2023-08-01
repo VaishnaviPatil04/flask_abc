@@ -16,5 +16,16 @@ def test2():
     data = request.args.get("x")
     return "this is a data input from my url {}".format(data)
 
+@app.route("login")
+def login():
+     data1 = 45*8
+     return "login my page from url {}". format(a)
+
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+
+
+
+
+
+
